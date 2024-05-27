@@ -1,0 +1,19 @@
+JavaScript is a dynamic type language. We can change variable value in the runtime. So, for that reason sometimes we may have confront awkward result or unknown error when we execute our program. e.g.
+
+let myName = "Arnab Saha"; //string type
+myName = true; //boolean type
+
+console.log(myName);  //Output: true   //JavaScript don't give an error. It execute the code with boolean value.
+
+So, avoid this problem we can use typescript.
+
+In typescript we make assign the variable type in runtime so, if we try to run a different type of value ts give an warning before execute the code or give an error after execute the code. e.g.
+
+let myName: string = "Arnab Saha"
+myName = true
+
+console.log(myName); //give an error because we assign the value in string but then we again redeclare it with a boolean value.
+
+With typescript we can write clean code, efficient code and quality full code. TypeScript have lot of things that enhance the JavaScript further.
+
+We can declare a variable type in function also and not only that when we passing arguments if we not pass the correct quantity of the function it gives us error in runtime.

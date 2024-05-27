@@ -10,3 +10,5 @@ TypesScript compiler convert the .ts file to .js file.
 
               tsc
 index.ts -> index.ts -> index.js
+
+tsc index.ts --watch (now not need to compile every time after changes)

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/arnabsahawrk/TypeScript/issues"
   },
-  "homepage": "https://github.com/arnabsahawrk/TypeScript#readme"
+  "homepage": "https://github.com/arnabsahawrk/TypeScript#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
 }
