@@ -1,0 +1,19 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "exploring typeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnabsahawrk/TypeScript.git"
+  },
+  "author": "Arnab Saha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arnabsahawrk/TypeScript/issues"
+  },
+  "homepage": "https://github.com/arnabsahawrk/TypeScript#readme"
+}

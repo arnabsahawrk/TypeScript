@@ -1,0 +1,12 @@
+install typescript
+----------------------
+Global: npm i -g typescript
+Local: npm i -save-dev typescript
+Check installed or not: tsc --version
+
+TypeScript filetype: .ts, index.ts
+
+TypesScript compiler convert the .ts file to .js file.
+
+              tsc
+index.ts -> index.ts -> index.js
