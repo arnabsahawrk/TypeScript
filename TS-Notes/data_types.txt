@@ -1,0 +1,12 @@
+*Any (super type) -when we set a declare but don't declare the type the variable will be 'any' type. And we set a variable also set the value but don't set the type ts automatic infer the type according to the value.
+
+let id;  //any
+let id = 50; //number
+let id:number; //it obviously number 
+
+ -built in types: (number, string, boolean, void, null, undefined etc.)
+  `void: we use void, when we don't want to return something. e.g. return nothing from a function we can use void.
+
+In vs code when we set a variable with its type suppose string, after that when we want to operate a operation with the variable it suggest only the string type operation. e.g. charAt, indexOf, includes, concat. Even when we set variable number type and we try to operate a string operation, ts gives an error.
+
+console.log(id.toLowerCase())  //give an error
