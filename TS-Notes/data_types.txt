@@ -10,3 +10,44 @@ let id:number; //it obviously number
 In vs code when we set a variable with its type suppose string, after that when we want to operate a operation with the variable it suggest only the string type operation. e.g. charAt, indexOf, includes, concat. Even when we set variable number type and we try to operate a string operation, ts gives an error.
 
 console.log(id.toLowerCase())  //give an error
+
+  -user defined types: (Arrays, Enums, Classes, Interfaces etc.)
+
+*Union Type - more than one type for variable or function parameter. e.g.
+let userInfo: string | number | boolean;
+
+*Array Type - in typescript when we declare a array with its type, we only contain value only the declared type. e.g. two pattern of declaration
+
+let userName: string[];
+let userId: number[];
+let userIsActive: boolean[];
+
+let userName: Array<string>;
+let userId: Array<number>;
+let userIsActive: Array<boolean>;
+
+we can also use multiple type in an array by leveraging union type but that's inconvenient. Don't do that.
+
+let multipleTypes: (string | number)[];
+
+*Tuple Type - mixed data type (key, value) e.g.
+let user: [number, string];
+
+*Enum Type - no duplicate data, helps to store constants. 3 type of enums, *numeric enum, *string enum, *heterogeneous enum.
+  -numeric enum: only work for numeric value.
+  -string enum: only work for string value.
+  -heterogeneous enum: work with mixing two of it.
+
+  //enum - store constants; duplicate value is not allowed here.
+
+Summary Of Enum
+-------------------
+.Numeric Enums: Default, auto-incrementing values starting from 0.
+.String Enums: Custom string values for each member.
+.Heterogeneous Enums: Mix of numeric and string values (generally avoided).
+.Reverse Mapping: Available for numeric enums, allowing value-to-name lookup.
+.Const Enums: Optimized, inlined at compile time, no reverse mapping.
+
+*Any Type - if we have no knowledge about the variable type or user input type we can use 'any' type. e.g.
+let userInput: any;
+
