@@ -51,3 +51,23 @@ Summary Of Enum
 *Any Type - if we have no knowledge about the variable type or user input type we can use 'any' type. e.g.
 let userInput: any;
 
+*Object Type - can store value as key value pair. e.g.
+
+let user1: object;  //object defined
+let user1: { userName: string; userId: number }; //we can also set optional key-value by '?' e.g.
+let user1: { userName: string; userId?: number }; //now it didn't give use a error if the key is missing. //set optional key
+let users: object[]; //array of object
+
+*Custom Type - can create own type also.
+type User = { userName: string; userId: number };
+
+type CustomRequestType = "GET" | "POST";
+let getRequest: CustomRequestType;
+getRequest = "GET";
+
+type CustomNumber = 2 | 5;
+let myNumber: CustomNumber;
+myNumber = 5;
+
+-here is the amazing thing I can also declare a specific custom string. now there only two type string value I can assign.
+
