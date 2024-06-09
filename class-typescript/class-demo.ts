@@ -1,0 +1,21 @@
+class UserClass {
+  //properties, methods, constructor
+
+  userName: string;
+  age: number;
+
+  constructor(userName: string, age: number) {
+    this.userName = userName;
+    this.age = age;
+  }
+
+  display(): void {
+    console.log(`name: ${this.userName}, age: ${this.age}`);
+  }
+}
+
+//class object
+//myUser - name: Arnab Saha, age: 25
+let myUser = new UserClass("Arnab Saha", 25);
+
+myUser.display();
