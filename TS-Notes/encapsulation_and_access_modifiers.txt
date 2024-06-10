@@ -1,0 +1,13 @@
+*4 keys of OOP: Inheritance, Abstraction, Encapsulation, Polymorphism.
+
+*Encapsulation helps us to manage the visibility of class members.
+
+*Access modifiers: public, private, protected, readonly
+
+//by default the is public, can access from everything
+
+//protected modifiers can access from only inheritance class
+
+//private modifiers can access from nowhere
+
+//readonly modifiers can read only but can't modify the value.

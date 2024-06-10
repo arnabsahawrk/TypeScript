@@ -1,0 +1,11 @@
+let userInfo: () => void;
+
+let userInfo: (name: string) => void;
+
+let userInfo3: (marks: number, result: number) => number;
+
+Now in first function it receive no parameter and return nothing
+
+In second function it receive a string parameter and return nothing
+
+In third function it receive two number parameter and return a number value

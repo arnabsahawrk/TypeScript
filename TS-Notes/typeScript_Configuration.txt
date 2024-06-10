@@ -1,0 +1,10 @@
+tsc --init
+
+uncomment 'outDir' in tsconfig.json file and save with './dist' --> //by doing that we're actually saying where our javascript file will save means after ts compile into js where the file will save (output directory)
+
+the uncomment 'rootDir' and save with './src' --> //by doing that we're actually saying where our typescript file will save (root directory)
+
+"includes": ["./src"]
+"files": ["./src/index.ts"]
+
+more in here https://www.typescriptlang.org/tsconfig/
