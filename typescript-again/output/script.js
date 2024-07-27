@@ -14,3 +14,12 @@ console.log(c);
 let d;
 d = [5, 6, 7];
 console.log(d);
+let e = [];
+e.push("Arnab", 99);
+console.log(e);
+let f;
+f = {
+    name: 25,
+    age: "Arnab",
+};
+console.log(f);
