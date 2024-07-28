@@ -65,3 +65,29 @@ add = (c, d) => {
 };
 
 add(5, 8);
+
+class Player {
+  name: string;
+  country: string;
+  number: number;
+
+  constructor(n: string, c: string, nmb: number) {
+    this.name = n;
+    this.country = c;
+    this.number = nmb;
+  }
+
+  play() {
+    console.log(`${this.name} from ${this.country}. Jersey no. ${this.number}`);
+  }
+}
+
+const arg = new Player("Messi", "Argentina", 10);
+const por = new Player("Ronaldo", "Portugal", 7);
+
+let arr: Array<Player> = [];
+
+arr.push(arg, por);
+for (let i of arr) {
+  i.play();
+}
