@@ -41,3 +41,14 @@ f = {
   age: "Arnab",
 };
 console.log(f);
+
+const myFunc: Function = () => {
+  console.log("This is function type");
+};
+
+let myFunc2 = (a: string, b: string, d?: number, c: string = "Hello") => {
+  console.log(c, d);
+  return a + b;
+};
+
+myFunc2("Arnab", "Saha");
