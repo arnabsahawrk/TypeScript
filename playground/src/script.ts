@@ -67,9 +67,9 @@ add = (c, d) => {
 add(5, 8);
 
 class Player {
-  name: string;
-  country: string;
-  number: number;
+  private name: string;
+  readonly country: string;
+  private number: number;
 
   constructor(n: string, c: string, nmb: number) {
     this.name = n;
