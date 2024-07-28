@@ -52,3 +52,8 @@ let myFunc2 = (a: string, b: string, d?: number, c: string = "Hello") => {
 };
 
 myFunc2("Arnab", "Saha");
+
+type stringOrNumb = number | string;
+type userDetails = { name: string; age: number };
+
+const funky = (a: stringOrNumb, b: userDetails) => {};
