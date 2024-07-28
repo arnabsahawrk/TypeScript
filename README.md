@@ -47,14 +47,6 @@ Why TypeScript?
 - It can be used in both: client and server side.
 - Intellisense IDE Support while coding: code completion, content assist and code hinting
 
-TS Versions
-
-- earlier versions
-- TypeScript 1.0 October 2014
-- TypeScript 2.0 September 2016
-- TypeScript 3.0 July 2018
-- TypeScript 4.0 - latest release August 2020
-
 Code Example of Javascript and TypeScript
 
 ```js
