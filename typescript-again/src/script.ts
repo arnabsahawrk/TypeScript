@@ -57,3 +57,11 @@ type stringOrNumb = number | string;
 type userDetails = { name: string; age: number };
 
 const funky = (a: stringOrNumb, b: userDetails) => {};
+
+let add: (a: number, b: number) => number;
+
+add = (c, d) => {
+  return c + d;
+};
+
+add(5, 8);
