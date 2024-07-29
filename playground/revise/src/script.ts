@@ -109,3 +109,15 @@ let user = addID({
 });
 
 addID(user);
+
+interface APIResponse<T> {
+  status: number;
+  type: string;
+  data: T;
+}
+
+const response: APIResponse<string> = {
+  status: 200,
+  type: "good",
+  data: "test",
+};
