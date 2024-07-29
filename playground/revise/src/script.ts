@@ -110,14 +110,21 @@ let user = addID({
 
 addID(user);
 
+enum RType {
+  SUCCESS,
+  FAILURE,
+  UNAUTHENTICATED,
+  FORBIDDEN,
+}
+
 interface APIResponse<T> {
   status: number;
-  type: string;
+  type: RType;
   data: T;
 }
 
 const response: APIResponse<string> = {
   status: 200,
-  type: "good",
+  type: RType.SUCCESS,
   data: "test",
 };
