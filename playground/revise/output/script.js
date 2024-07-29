@@ -1,4 +1,3 @@
-"use strict";
 const country = "I love Bangladesh";
 console.log(country);
 let a = [];
@@ -54,3 +53,6 @@ arr.push(arg, por);
 for (let i of arr) {
     i.play();
 }
+import { Student } from "./class/Class.js";
+const student1 = new Student(25, "Arnab Saha", "Programming Hero");
+student1.output();
