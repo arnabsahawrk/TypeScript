@@ -95,3 +95,17 @@ for (let i of arr) {
 import { Student } from "./class/Class.js";
 const student1 = new Student(25, "Arnab Saha", "Programming Hero");
 student1.output();
+
+const addID = <T extends { name: string; age: number }>(obj: T) => {
+  let id = Math.floor(Math.random() * 100);
+
+  return { ...obj, id };
+};
+
+let user = addID({
+  name: "Arnab",
+  age: 25,
+  country: "Bangladesh",
+});
+
+addID(user);
