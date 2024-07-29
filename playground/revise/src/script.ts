@@ -128,3 +128,5 @@ const response: APIResponse<string> = {
   type: RType.SUCCESS,
   data: "test",
 };
+
+let b: [number, string, object] = [5, "okay", {}];
